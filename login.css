@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    background: #FFD7C4;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    overflow: hidden;
+    width: 800px; /* Increased width to accommodate both image and form */
+    max-width: 100%;
+    display: flex;
+}
+
+.login-box {
+    display: flex;
+    width: 100%;
+}
+
+.login-image {
+    flex: 1;
+    background: #f2f2f2; /* Light gray background for image section */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-image img {
+    width: 80%; /* Adjust image size */
+    margin: 20px;
+}
+
+.login-form {
+    flex: 1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.login-form h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.login-button {
+    background: #28a745;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+    width: 100%;
+}
+
+.login-button:hover {
+    background: #218838;
+}
+
+.forgot-password,
+.create-account {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.forgot-password a,
+.create-account a {
+    color: #007bff;
+    text-decoration: none;
+    text-align: center;
+}
+
+.forgot-password a:hover,
+.create-account a:hover {
+    text-decoration: underline;
+    text-align: center;
+}
