@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - Mental Health</title>
+    <link rel="stylesheet" href="css\signup.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo"> 
+            <h2>ConectMind</h2>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="#"><i class="fas fa-info-circle"></i> About Us</a></li>
+                <li><a href="resources.html"><i class="fas fa-book"></i> Resources</a></li>
+                <li><a href="#"><i class="fas fa-hands-helping"></i> Support Services</a></li>
+                <li><a href="#"><i class="fas fa-heart"></i> Self-Assessment</a></li>
+                <li><a href="#"><i class="fas fa-users"></i> Community</a></li>
+                <li><a href="blog.html"><i class="fas fa-blog"></i> Blog</a></li>
+            </ul>
+        </nav>
+        <div class="auth-buttons">
+            <a href="login.html" class="sign-in">Sign In</a>
+            <a href="signup.html" class="sign-up">Sign Up</a>
+        </div>
+    </header>
+    
+    <main class="signup-container">
+        <!-- Image Section -->
+        <div class="signup-image">
+            <img src="images\mental-health-7323725_1280.png" alt="Mental Health Awareness">
+        </div>
+
+        <!-- Sign Up Form Section -->
+        <form class="signup-form">
+            <h2>Sign Up</h2>
+            <div class="input-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" placeholder="Enter your username" required>
+            </div>
+            <div class="input-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Enter your email" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Enter your password" required>
+            </div>
+            <div class="input-group">
+                <label for="confirm-password">Confirm Password</label>
+                <input type="password" id="confirm-password" placeholder="Confirm your password" required>
+            </div>
+            <button type="submit" class="signup-btn">Sign Up</button>
+            <p class="signin-link">Already have an account? <a href="login.html">Sign In</a></p>
+        </form>
+    </main>
+
+</body>
+</html>
