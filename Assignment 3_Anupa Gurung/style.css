@@ -1,0 +1,194 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Section */
+header {
+    background: #CD5C08;
+    padding: 20px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo h1 {
+    margin: 0;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar li {
+    margin-left: 20px;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color: black;
+}
+
+/* Main Content Section */
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+/* Book a Counselor Section */
+.book-counselor {
+    background: #FFD7C4;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 45%;
+}
+
+.counselor-wrapper {
+    padding: 20px;
+    background: white;
+    border-radius: 5px;
+}
+
+.booking-form label {
+    display: block;
+    margin-top: 10px;
+}
+
+.booking-form select,
+.booking-form input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.booking-form button {
+    margin-top: 20px;
+}
+
+/* Right Section */
+.right-section {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.upcoming-appointments, .appointment-history {
+    background: #FFD7C4;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.appointments-wrapper, .history-wrapper {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.appointments-table, .history-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.appointments-table th, .appointments-table td, .history-table th, .history-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+}
+
+.appointments-table th, .history-table th {
+    background: #CD5C08;
+    color: #fff;
+}
+
+/* Counselor Details Section */
+.counselor-details {
+    background: #e1701a;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.details-wrapper {
+    background: #FFD7C4;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.counselor-info {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.counselor {
+    background: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    flex: 1;
+    max-width: 300px;
+}
+
+/* Footer Section */
+footer {
+    background: #CD5C08;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+/* Buttons */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #CD5C08;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #c75005;
+}

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Account - MindFulConnect</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> <!-- Importing Chart.js for graphs -->
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <h1>MindFulConnect</h1>
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="forum.html">Peer Forum</a></li>
+                <li><a href="counseling.html">Counseling Services</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="User Account.html">User Account</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- User Account Section -->
+    <section class="user-account">
+        <div class="account-wrapper">
+            <h2>Welcome, Anupa Gurung</h2>
+            <p>Manage your account information below.</p>
+            
+            <form class="account-form">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" value="current_username">
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" value="user@example.com">
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password">
+
+                <label for="contact">Contact Number:</label>
+                <input type="text" id="contact" name="contact" value="+1234567890">
+
+                <button type="submit" class="button">Update Information</button>
+            </form>
+
+            <div class="logout">
+                <a href="login.html" class="button">Logout</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mental Health History and Improvement Section -->
+    <section class="mental-health-history">
+        <div class="history-wrapper">
+            <h2>Your Mental Health History and Improvement</h2>
+            
+            <!-- History Table -->
+            <table class="history-table">
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Quiz Type</th>
+                        <th>Score</th>
+                        <th>Remarks</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2024-01-15</td>
+                        <td>Anxiety Assessment</td>
+                        <td>45/100</td>
+                        <td>Moderate Anxiety</td>
+                    </tr>
+                    <tr>
+                        <td>2024-02-10</td>
+                        <td>Mindfulness Quiz</td>
+                        <td>70/100</td>
+                        <td>Good Progress</td>
+                    </tr>
+                    <tr>
+                        <td>2024-03-05</td>
+                        <td>Depression Self-Test</td>
+                        <td>30/100</td>
+                        <td>Mild Depression</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <!-- Improvement Graph -->
+            <div class="graph-wrapper">
+                <h3>Improvement Over Time</h3>
+                <canvas id="healthChart" width="400" height="200"></canvas>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 MindFulConnect. All Rights Reserved.</p>
+            <ul class="footer-links">
+                <li><a href="privacy_policy.html">Privacy Policy</a></li>
+                <li><a href="terms_of_service.html">Terms of Service</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
